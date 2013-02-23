@@ -8,7 +8,7 @@ var handle = {}
 handle[""] = requestHandlers.index;
 handle["/"] = requestHandlers.index;
 handle["/submit"] = requestHandlers.submit;
-handle["/clear"] = requestHandlers.clear;
+handle["/secretclear"] = requestHandlers.clear;
 
 function start(route, handle) {
   function onRequest(request, response) {
